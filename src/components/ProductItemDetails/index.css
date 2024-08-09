@@ -1,0 +1,191 @@
+/* Write your CSS here */
+.loader-aling,
+.failure-view-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+.failure-img {
+  width: 100%;
+  max-width: 700px;
+}
+
+.failure-heading {
+  color: #12022f;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+
+.continue-btn {
+  color: #ffffff;
+  background-color: #3b82f6;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+}
+
+.success-view-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.product-details-section {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1100px;
+}
+
+.product-item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+.img {
+  width: 50%;
+  min-width: 400px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .product-details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .product-item-details {
+    margin: 10px;
+  }
+  .img {
+    width: 100%;
+  }
+}
+
+.product-title {
+  color: #616e7c;
+  font-family: 'Roboto';
+}
+
+.product-price {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.product-review {
+  color: #171f46;
+  font-family: 'Roboto';
+  margin-left: 15px;
+}
+
+.similar-product-section {
+  color: #616e7c;
+  font-family: 'Roboto';
+  width: 90%;
+  max-width: 1100px;
+  margin-top: 45px;
+}
+
+.similar-product {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.product-rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 8px 16px 8px 16px;
+}
+
+.product-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.product-star {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;
+}
+
+.product-rating-review {
+  display: flex;
+}
+
+.product-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.product-availability,
+.product-brand {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.available,
+.brand {
+  color: #12022f;
+  font-family: 'Roboto';
+}
+
+.add-to-cart-btn {
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 0px 15px 0px;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+}
+
+.controll-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-count {
+  color: #616e7c;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin: 25px;
+}
+
+.plus-icon-btn,
+.minus-icon-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.horizontal-line {
+  border: solid 1px #616e7c;
+  width: 100%;
+}
